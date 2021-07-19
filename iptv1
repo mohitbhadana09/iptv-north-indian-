@@ -131,14 +131,6 @@ http://161.0.157.9/PLTV/88888888/224/3221226800/03.m3u8
 http://51.68.152.224:8080/HBOHD/mpegts?token=6BmI9mnOg2
 #EXTINF:0, IPTV VIP
 http://163.172.218.83:22444/get.php?username=henryiptv&password=scambioitaghhljnmr34&type=m3u
-#EXTINF:0, NASA TV
-http://5.199.194.234:81/udp/239.255.0.225:1234
-#EXTINF:0, NASA TV Media
-https://nasa-i.akamaihd.net/hls/live/253566/NTV-Media/master.m3u8
-#EXTINF:0, NASA TV Public-Education
-https://nasa-i.akamaihd.net/hls/live/253565/NTV-Public/master.m3u8
-#EXTINF:0, NASA TV Public-Education
-https://nasa-i.akamaihd.net/hls/live/253565/NTV-Public1/master.m3u8
 #EXTINF:0, NAT GEO + BT
 http://143.159.109.156:9000/playlist.m3u8
 #EXTINF:0, Nat Geo Wild
@@ -159,31 +151,34 @@ http://bglive-a.bitgravity.com/ndtv/247hi/live/native
 http://149.202.85.84:8080/SsNysX-Kutta-14May/local/index.m3u8
 #EXTINF:0, Sport Mix
 http://91.236.239.86:8080/get.php?username=20-www.ipmagtv.com&password=notforrestream&type=m3u
-#EXTINF:0, TSN 1
-http://185.2.83.63:8080/MiddAaOye/teesn1/tracks-v1a1/index.m3u8
-#EXTINF:0, TSN 1 HD
-http://ams-lp5.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/tsnOpen8.m3u8
-#EXTINF:0, TSN 2
-http://185.2.83.63:8080/MiddAaOye/teesn2/tracks-v1a1/index.m3u8
-#EXTINF:0, TSN 2 HD
-http://ams-lp7.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/TSN2Open8.m3u8
-#EXTINF:0, TSN 3
-http://185.2.83.63:8080/MiddAaOye/teesn3/tracks-v1a1/index.m3u8
-#EXTINF:0, TSN 3 HD
-http://ams-lp1.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/TSN3Open8.m3u8
-#EXTINF:0, TSN 4
-http://185.2.83.63:8080/MiddAaOye/teesn4/tracks-v1a1/index.m3u8
-#EXTINF:0, TSN 4 HD
-http://ams-lp2.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/TSN4Open8.m3u8
-#EXTINF:0, TSN 5
-http://185.2.83.63:8080/MiddAaOye/teesn5/tracks-v1a1/index.m3u8
-#EXTINF:0, TSN 5 HD
 http://ams-lp3.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/TSN5Open8.m3u8
 #EXTINF:0, TURBO
 http://103.22.181.87:1935/livetv/TURBO.stream/chengye.m3u8?uttasak,12345
-#EXTINF:0, TV MIAMI MUSIC
-http://74.208.152.93/music/stream3/stream.m3u8
-#EXTINF:0, TV MIAMI MUSIC
-http://74.208.152.93/music/stream3/stream.m3u8
+#EXTINF:-1 tvg-id="AajTak.in" tvg-name="Aaj Tak" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",Aaj Tak (720p)
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-id="ABPHindi.in" tvg-name="ABP Hindi" tvg-country="IN" tvg-language="English" tvg-logo="https://static.abplive.in/wp-content/themes/abp-hindi/images/logo/hindiLogoD.png" group-title="News",ABP Hindi (720p)
+https://abp-i.akamaihd.net/hls/live/765529/abphindi/master.m3u8
+#EXTINF:-1 tvg-id="DDNational.in" tvg-name="DD National" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",DD National (480p)
+https://m-c036-j2apps.s.llnwi.net/hls/0098.DDNational.in.m3u8
+#EXTINF:-1 tvg-id="DDNews.in" tvg-name="DD News" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",DD News (576p)
+https://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8
+#EXTINF:-1 tvg-id="IndiaToday.in" tvg-name="India Today" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="",India Today (720p)
+https://feeds.intoday.in/hltapps/api/master.m3u8
+#EXTINF:-1 tvg-id="IndiaTV.in" tvg-name="India TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/IYXrLPs.png" group-title="",India TV
+https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="NDTVIndia.in" tvg-name="NDTV India" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="",NDTV India (480p)
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+#EXTINF:-1 tvg-id="NDTVProfit.in" tvg-name="NDTV Profit" tvg-country="IN" tvg-language="English" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_Profit.png" group-title="Business",NDTV Profit (480p)
+https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8
+#EXTINF:-1 tvg-id="News18Hindi.in" tvg-name="News 18 Hindi" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",News 18 Hindi
+https://news18india-lh.akamaihd.net/i/news18india_1@174951/index_4_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1 tvg-id="RepublicBharatin.in" tvg-name="RepublicBharat.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/BG1aZ6V.jpg" group-title="",Republic Bharat (360p)
+https://vidgyor.com/live/bharat_hls/master.m3u8
+#EXTINF:-1 tvg-id="RepublicTV.in" tvg-name="Republic TV" tvg-country="IN" tvg-language="" tvg-logo="https://i.imgur.com/PvI2PCX.png" group-title="",Republic TV
+https://weblive.republicworld.com/liveorigin/republictv/playlist.m3u8
+#EXTINF:-1 tvg-id="StarWorldHD.in" tvg-name="Star World HD" tvg-country="IN" tvg-language="" tvg-logo="" group-title="",Star World HD
+http://212.224.98.196:2200/R-EX/ENGLISH_STAR_WORLD_HD-in/index.m3u8?token=
+#EXTINF:-1 tvg-id="ZeeAction.in" tvg-name="Zee Action" tvg-country="IN" tvg-language="" tvg-logo="" group-title="",Zee Action
+https://f8e7y4c6.ssl.hwcdn.net/action/playlist.m3u8
 #EXTINF:0, World channels VIP
 http://ip.openfor.tv:8000/get.php?username=live:gazi2po2&password=cOgc2sy8zZ&type=m3u
